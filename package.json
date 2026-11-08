@@ -1,0 +1,15 @@
+{
+  "name": "better-codex-status",
+  "version": "1.0.0",
+  "description": "Pi extension that displays Codex account rate limits without adding anything to the agent conversation.",
+  "license": "MIT",
+  "keywords": ["pi-package", "pi-extension", "codex"],
+  "files": ["index.ts", "README.md", "LICENSE", "package.json"],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "pi": {
+    "extensions": ["./index.ts"]
+  }
+}
