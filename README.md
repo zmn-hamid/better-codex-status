@@ -1,5 +1,7 @@
 # Better Codex Status
 
+> Disclaimer: This project has been entirely vibe-coded.
+
 A small [Pi](https://pi.dev) extension that adds `/codex-status`.
 
 It asks the authenticated Codex CLI for the current account rate limits and displays a user-only overlay with progress bars for the 5-hour and weekly allowances. The result is not added to the chat or sent to the model.
